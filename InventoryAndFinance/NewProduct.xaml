@@ -1,0 +1,22 @@
+﻿<Window x:Class="InventoryAndFinance.NewProduct"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Add New Product" Height="300" Width="500" >
+    <Grid x:Name="myGrid" >
+        <Label Content="Product ID" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Title" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top"/>
+        <Label Content="Version" HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top"/>
+        <Label Content="Description" HorizontalAlignment="Left" Margin="10,98,0,0" VerticalAlignment="Top"/>
+        <Label Content="Product URL" HorizontalAlignment="Left" Margin="10,129,0,0" VerticalAlignment="Top"/>
+        <Label Content="Version Check URL" HorizontalAlignment="Left" Margin="10,160,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Id" HorizontalAlignment="Left" Height="23" Margin="317,14,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TitleBox" HorizontalAlignment="Left" Height="23" Margin="317,42,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Version" HorizontalAlignment="Left" Height="23" Margin="317,71,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Description" HorizontalAlignment="Left" Height="23" Margin="317,102,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Url" HorizontalAlignment="Left" Height="23" Margin="317,133,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="VersionUrl" HorizontalAlignment="Left" Height="23" Margin="317,164,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="BtSave" Content="Save" HorizontalAlignment="Left" Margin="52,230,0,0" VerticalAlignment="Top" Width="176" Click="BTSave_Click"/>
+        <Button x:Name="BtReset" Content="Reset" HorizontalAlignment="Left" Margin="233,230,0,0" VerticalAlignment="Top" Width="176" Click="BtReset_Click"/>
+
+    </Grid>
+</Window>

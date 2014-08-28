@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryAndFinance", "InventoryAndFinance\InventoryAndFinance.csproj", "{D674B3E9-384A-4A4C-9B3D-6FDEE58AF60F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{FE9123A3-DAD2-45A4-8D13-EC321718CB4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainClasses", "DomainClasses\DomainClasses.csproj", "{FC3394F4-E063-439E-95E3-74B5924B57D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D674B3E9-384A-4A4C-9B3D-6FDEE58AF60F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D674B3E9-384A-4A4C-9B3D-6FDEE58AF60F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D674B3E9-384A-4A4C-9B3D-6FDEE58AF60F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D674B3E9-384A-4A4C-9B3D-6FDEE58AF60F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE9123A3-DAD2-45A4-8D13-EC321718CB4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE9123A3-DAD2-45A4-8D13-EC321718CB4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE9123A3-DAD2-45A4-8D13-EC321718CB4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE9123A3-DAD2-45A4-8D13-EC321718CB4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC3394F4-E063-439E-95E3-74B5924B57D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC3394F4-E063-439E-95E3-74B5924B57D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC3394F4-E063-439E-95E3-74B5924B57D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC3394F4-E063-439E-95E3-74B5924B57D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
